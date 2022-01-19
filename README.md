@@ -3,6 +3,7 @@
 ## Table of contents
 * [General info](#general-info)
 * [Setup](#setup)
+* [Debugging](#debugging)
 * [Reporting](#reporting)
 
 ## General info
@@ -30,6 +31,8 @@ To run a specific test suite, run:
 ```
 .\node_modules\.bin\wdio .\wdio.conf.js --spec .\test\specs\{test suite filename}
 ```
+## Debugging
+This repo contains launch.json file inside the .vscode folder. You can use it to start the debugger session.
 
 ## Reporting
 This framework uses auto-generated Spec and Allure for test results reporting.
