@@ -29,6 +29,8 @@ To run a specific test suite, run:
 .\node_modules\.bin\wdio .\wdio.conf.js --spec .\test\specs\{test suite filename}
 ```
 
+IMPORTANT: you will need to provide correct login and password in "login" and "password" fields in the wdio.conf.js file.
+
 ## Reporting
 This framework uses auto-generated Spec and Allure for test results reporting.
 Spec results are visible in the terminal window at the end of test execution.
