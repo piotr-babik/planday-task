@@ -10,6 +10,8 @@ Sample automation testing project written in JS using Webdriver.io and Mocha.
 Reporting via Spec and Allure.
 	
 ## Setup
+IMPORTANT: you will need to provide correct login and password in "login" and "password" fields in the wdio.conf.js file in order to run tests successfully.
+
 To install this project, clone it, go to the root folder and run:
 
 ```
@@ -28,8 +30,6 @@ To run a specific test suite, run:
 ```
 .\node_modules\.bin\wdio .\wdio.conf.js --spec .\test\specs\{test suite filename}
 ```
-
-IMPORTANT: you will need to provide correct login and password in "login" and "password" fields in the wdio.conf.js file.
 
 ## Reporting
 This framework uses auto-generated Spec and Allure for test results reporting.
